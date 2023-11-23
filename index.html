@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<style>
+    .container-pass{
+        display: none;
+    }
+
+    #contWelcome{
+        display: none;
+    }
+
+    #articulos_button{
+        display: none;
+    }
+
+    #precio_button{
+        display: none;
+    }
+
+    #comprar_button{
+        display: none;
+    }
+
+</style>
+
+<body>
+    <h1 id ="textpass">
+        Ingrese su contrasena
+    </h1>
+
+    <input type="password" id="password" required>
+    <button id="button-password">Enviar</button>
+
+    <div class="container-pass">
+    <h6>contrasena Incorrecta, porfavor vuelva a ingresarla</h6>
+    </div>
+
+    <h1 id ="contWelcome">Bienvenido a Fruticommerce</h1>
+
+    <button  id="articulos_button" >Ver articulos</button><br>
+    <button  id="precio_button">Ver precios</button><br>
+    <button  id="comprar_button">Comprar</button><br>
+    
+    <div id="containerList"></div>
+    <div id="CB"></div>
+    <div id="containerPrices"></div>
+    <div id="CB2"></div>
+</body>
+<script src="main.js"></script>
+</html>
